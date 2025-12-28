@@ -39,8 +39,11 @@ Properties:
 This class demonstrates inheritance from the Item class.
 ## ShoppingCart
 Represents a shopping cart containing multiple items.\
-items(list[ItemCart])–List of items in the cart\
-date(str)–Date of the shopping cart creation
+Properties:
+| Name | Type | Descriptions |
+|:----:|:----:|:------------:|
+| ```Items``` | list[ItemCart] | List of items in the cart |
+| ```date``` | str | Date of the shopping cart creation |
 ## Customer
 Represents a customer of the shop.\
 name(str)–Customer name\
