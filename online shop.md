@@ -45,7 +45,8 @@ Properties:
 | ```Items``` | list[ItemCart] | List of items in the cart |
 | ```date``` | str | Date of the shopping cart creation |
 ## Customer
-Represents a customer of the shop.
+Represents a customer of the shop.\
+Properties:
 | Name | Type | Descriptions |
 |:----:|:----:|:------------:|
 | ```Name``` | str | Customer name |
@@ -57,11 +58,14 @@ Represents a customer of the shop.
 | ```history``` | list[ShoppingCard] | Purchase history |
 ## Seller
 Represents a seller in the shop.\
-name(str)–Seller name\
-username(str)–Seller username\
-phone_number(int)–Phone number\
-E_mail_address(str)–Email address\
-items(list[Item])–List of items sold by the seller
+Properties:
+| Name | Type | Descriptions |
+|:----:|:----:|:------------:|
+| ```Name``` | str | Seller name |
+| ```Username``` | str | Seller username |
+| ```phone_number``` | int | Phone number |
+| ```E_mail_address``` | str | Email address |
+| ```Items``` | list[Item] | List of items sold by the seller |
 ## Shop
 Represents the main shop system.
 customers(list[Customer])–registered customers\
