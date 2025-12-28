@@ -74,3 +74,5 @@ Properties:
 | ```Customers``` | list[Customer] | Registered customers |
 | ```Sellers``` | list[Seller] | Registered sellers |
 | ```Products``` | list[Product] | Available products |
+
+Created with ❤️ in Iran
