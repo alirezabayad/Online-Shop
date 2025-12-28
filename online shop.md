@@ -45,14 +45,16 @@ Properties:
 | ```Items``` | list[ItemCart] | List of items in the cart |
 | ```date``` | str | Date of the shopping cart creation |
 ## Customer
-Represents a customer of the shop.\
-name(str)–Customer name\
-username(str)–Customer username\
-phone_number(int)–Phone number\
-E_mail_address(str)–Email address\
-favorite_list(list[Product])–List of favorite products\
-cart(ShoppingCart)–Current shopping cart\
-history(list[ShoppingCart])–Purchase history
+Represents a customer of the shop.
+| Name | Type | Descriptions |
+|:----:|:----:|:------------:|
+| ```Name``` | str | Customer name |
+| ```Username``` | str | Customer username |
+| ```phone_number``` | int | Phone number |
+| ```E_mail_address``` | str | Email address |
+| ```favorite_list``` | list[Product] | List of favorite products |
+| ```Card``` | ShoppingCard | Current shopping cart |
+| ```history``` | list[ShoppingCard] | Purchase history |
 ## Seller
 Represents a seller in the shop.\
 name(str)–Seller name\
