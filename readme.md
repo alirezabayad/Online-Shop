@@ -1,6 +1,6 @@
 # Online Shop
 ## Project Structure
-The system consists of the following main classes:\
+The system consists of the following main classes:
 - ```Product```
 - ```Item```
 - ```ItemCart```
