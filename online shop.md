@@ -68,6 +68,9 @@ Properties:
 | ```Items``` | list[Item] | List of items sold by the seller |
 ## Shop
 Represents the main shop system.
-customers(list[Customer])–registered customers\
-sellers(list[Seller])–registered sellers\
-products(list[Product])–available products
+Properties:
+| Name | Type | Descriptions |
+|:----:|:----:|:------------:|
+| ```Customers``` | list[Customer] | Registered customers |
+| ```Sellers``` | list[Seller] | Registered sellers |
+| ```Products``` | list[Product] | Available products |
