@@ -20,9 +20,12 @@ Properties:
 | ```product_ID``` | int | Unique identifier of the product |
 ## Item
 Represents a sellable item with quantity and price.\
-products(Product)–Reference to a Product\
-count(int)–Quantity of the product\
-price(float)–Price per unit\
+Properties:
+| Name | Type | Descriptions |
+|:----:|:----:|:------------:|
+| ```Product``` | Product | Reference to a Product |
+| ```Count``` | int | Quantity of the product |
+| ```price``` | float | Price per unit |
 ## ItemCart(inherits from Item)
 Represents an item inside a shopping cart,linked to a seller.\
 products (Product)–Inherited from Item\
