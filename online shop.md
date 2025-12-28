@@ -25,13 +25,16 @@ Properties:
 |:----:|:----:|:------------:|
 | ```Product``` | Product | Reference to a Product |
 | ```Count``` | int | Quantity of the product |
-| ```price``` | float | Price per unit |
+| ```Price``` | float | Price per unit |
 ## ItemCart(inherits from Item)
 Represents an item inside a shopping cart,linked to a seller.\
-products (Product)–Inherited from Item\
-count(int)–Inherited from Item\
-price(float)–Inherited from Item\
-seller(Seller)–Seller of the product\
+Properties:
+| Name | Type | Descriptions |
+|:----:|:----:|:------------:|
+| ```Product``` | Product | Inherited from Item |
+| ```Count``` | int | Inherited from Item |
+| ```Price``` | float | Inherited from Item |
+| ```Seller``` | Seller | Seller of the product |
 - Notes:
 This class demonstrates inheritance from the Item class.
 ## ShoppingCart

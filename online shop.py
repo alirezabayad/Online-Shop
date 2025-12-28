@@ -18,8 +18,22 @@ class Item:
         self.price=price
     def __str__(self):
         return "products:"+str(self.products)+"count:"+str(self.count)+"price:"+str(self.price)
+class Seller:
+    name:str=" "
+    username:str=" "
+    phone_number:int=0
+    E_mail_address:str=" "
+    items:list[Item]
+    def __init__(self,name,username,phone_number,E_mail_address,items):
+        self.name=name
+        self.username=username
+        self.phone_number=phone_number
+        self.E_mail_address=E_mail_address
+        self.items=items
+    def __str__(self):
+        return "name"+str(self.name)+"username"+str(self.username)+"phone_number"+str(self.phone_number)+"E_mail_address"+str(self.E_mail_address)+"items:"+str(self.items)
 class ItemCart(Item):
-    seller: "Seller"
+    seller:Seller
     def __init__(self, product, count, price, seller):
         super().__init__(product, count, price)
         self.seller = seller
@@ -51,20 +65,6 @@ class Customer:
         self.history=history
     def __str__(self):
         return "name"+str(self.name)+"username"+str(self.username)+"phone_number"+str(self.phone_number)+"E_mail_address"+str(self.E_mail_address)+"favorite_list"+str(self.favorite_list)+"cart"+str(self.cart)+"history"+str(self.history)
-class Seller:
-    name:str=" "
-    username:str=" "
-    phone_number:int=0
-    E_mail_address:str=" "
-    items:list[Item]
-    def __init__(self,name,username,phone_number,E_mail_address,items):
-        self.name=name
-        self.username=username
-        self.phone_number=phone_number
-        self.E_mail_address=E_mail_address
-        self.items=items
-    def __str__(self):
-        return "name"+str(self.name)+"username"+str(self.username)+"phone_number"+str(self.phone_number)+"E_mail_address"+str(self.E_mail_address)+"items:"+str(self.items)
 class Shop:
     customers:list[Customer]
     sellers:list[Seller]
