@@ -67,7 +67,7 @@ Properties:
 | ```E_mail_address``` | str | Email address |
 | ```Items``` | list[Item] | List of items sold by the seller |
 ## Shop
-Represents the main shop system.
+Represents the main shop system.\
 Properties:
 | Name | Type | Descriptions |
 |:----:|:----:|:------------:|
