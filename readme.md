@@ -32,6 +32,12 @@ Properties:
 | ```Product``` | Product | Reference to a Product |
 | ```Count``` | int | Quantity of the product |
 | ```Price``` | float | Price per unit |
+
+Methods:
+| Name | Decribtions |
+|:----:|:-----------:|
+| ```__init__``` | Initializes item data |
+| ```__str__``` | Returns item details as string |
 ## ItemCart(inherits from Item)
 Represents an item inside a shopping cart,linked to a seller.\
 Properties:
