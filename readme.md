@@ -116,4 +116,6 @@ Methods:
 |:----:|:-----------:|
 | ```__init__``` | Initializes shop system |
 | ```__str__``` | Returns shop information |
+
+\
 Created with ❤️ in Iran
