@@ -62,6 +62,12 @@ Properties:
 |:----:|:----:|:------------:|
 | ```Items``` | list[ItemCart] | List of items in the cart |
 | ```date``` | str | Date of the shopping cart creation |
+
+Methods:
+| Name | Description  |
+|:----:|:------------:|
+| ```__init__``` | Initializes shopping cart |
+|  ```__str__``` | Returns cart information |
 ## Customer
 Represents a customer of the shop.\
 Properties:
