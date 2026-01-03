@@ -80,6 +80,12 @@ Properties:
 | ```favorite_list``` | list[Product] | List of favorite products |
 | ```Card``` | ShoppingCard | Current shopping cart |
 | ```history``` | list[ShoppingCard] | Purchase history |
+
+Methods:
+| Name | Decribtions |
+|:----:|:-----------:|
+| ```__init__``` | Initializes customer information |
+| ```__str__``` | Returns customer information |
 ## Seller
 Represents a seller in the shop.\
 Properties:
