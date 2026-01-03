@@ -111,4 +111,9 @@ Properties:
 | ```Sellers``` | list[Seller] | Registered sellers |
 | ```Products``` | list[Product] | Available products |
 
+Methods:
+| Name | Decribtions |
+|:----:|:-----------:|
+| ```__init__``` | Initializes shop system |
+| ```__str__``` | Returns shop information |
 Created with ❤️ in Iran
