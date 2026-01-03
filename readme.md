@@ -96,6 +96,12 @@ Properties:
 | ```phone_number``` | int | Phone number |
 | ```E_mail_address``` | str | Email address |
 | ```Items``` | list[Item] | List of items sold by the seller |
+
+Methods:
+| Name | Decribtions |
+|:----:|:-----------:|
+| ```__init__``` | Initializes seller information |
+| ```__str__``` | Returns seller information as string |
 ## Shop
 Represents the main shop system.\
 Properties:
