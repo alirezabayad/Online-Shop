@@ -49,6 +49,12 @@ Properties:
 | ```Seller``` | Seller | Seller of the product |
 - Notes:
 This class demonstrates inheritance from the Item class.
+
+Methods:
+| Name | Decribtions |
+|:----:|:-----------:|
+| ```__init__``` | Initializes cart item |
+| ```__str__``` | Returns cart item information |
 ## ShoppingCart
 Represents a shopping cart containing multiple items.\
 Properties:
