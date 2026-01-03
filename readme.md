@@ -18,6 +18,12 @@ Properties:
 | ```name``` | str | Name of product |
 | ```description``` | str | Description of the product |
 | ```product_ID``` | int | Unique identifier of the product |
+
+Methods:
+| Name | Decribtions |
+|:----:|:-----------:|
+| ```__init__``` | Initializes product information |
+| ```__str__``` | Returns product information as string |
 ## Item
 Represents a sellable item with quantity and price.\
 Properties:
